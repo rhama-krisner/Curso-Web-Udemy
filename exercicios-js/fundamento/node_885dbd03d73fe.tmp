@@ -1,9 +1,0 @@
-var x = 10
-var count = setInterval(function(){
-    if(count >= 10){
-        clearInterval(count)
-    }
-
-    console.log(count++)
-}, 1000)
-
