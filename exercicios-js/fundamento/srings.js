@@ -7,5 +7,7 @@ console.log(escola.substring(1));
 console.log(escola.substring(0, 3)); //substring e substr é a mesma coisa.
 
 console.log('Escola '.concat(escola).concat('!'));
+console.log('Escola ' + escola + '!*');
 console.log(escola.replace (3, 'e'));
-console.log('Ana, Maria, Pedro'.split(','));  
+
+console.log('Ana, Maria, Pedro'.split(','));
